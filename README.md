@@ -148,9 +148,7 @@ Open your browser and navigate to: **[http://127.0.0.1:5000](http://127.0.0.1:50
     
 3.  Click **🔍 Scan & Unpack Both Directories**.
 
-
-![The Detected Mission Assets card after a successful scan, showing auto-populated camera streams and extracted file counts.](documentation/scan_directories.png)
-
+<img src="documentation/scan_directories.png" alt="The full application dashboard showing the 'Detected Mission Assets' window after a successful scan, displaying camera streams and file counts." width="600">
 
 **3.1 Set Hardware & Encoding Controls**
 
@@ -196,10 +194,7 @@ To achieve the fastest possible MCAP build times (e.g., reducing a 20-minute job
 > 2. Replace the modified file in your local environment.
 > 3. Restart the server.
 
-
-
-![Detected Mission Assets and Navigation Roles & Data Mapping](documentation/detect_mission_data_mapping.png)
-
+<img src="documentation/detect_mission_data_mapping.png" alt="Detected Mission Assets and Navigation Roles & Data Mapping" width="500">
 
 **4. Press Build MCAP File**
 ... and wait. It’ll take some time to finish, but you can monitor the progress in the status log at the bottom left while watching the live encoding process for each CPU core on the right.
