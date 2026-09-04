@@ -276,6 +276,11 @@ Now you can control the playback of the dive:
 -   **3D Navigation:** In the 3D panel, click and drag to rotate your view around the ROV, and use your mouse wheel to zoom in and out.
 
 
+_If that ain't cool, I don't know what is._
+![Lichtblick ROV PHOCA overview](documentation/lichtblick_overview.png)
+
+
+
 _If in doubt, ask!_
 
 
