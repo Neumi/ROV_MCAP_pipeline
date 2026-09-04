@@ -33,8 +33,7 @@
         "Winde.WINCH2500.Tension": "winch_tension",
         "SBE49CTD.CTD.Temperature": "temperature",
         "SBE49CTD.CTD.Salinity": "salinity",
-        "SBE49CTD.CTD.Density": "density",
-        "RBR.RBR.Temperature": "rbr_rbr_temperature"
+        "SBE49CTD.CTD.Density": "density"
     },
     "ofop": [
         "SUB1_Lon",
