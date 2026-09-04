@@ -218,28 +218,26 @@ Lichtblick is a visualization tool that lets you play back the MCAP files you ju
 
 You have two choices for using Lichtblick: you can run it right in your web browser, or download it to your computer.
 
--   **Option A: The Web Version (Quickest)** If you just want to take a quick look at a small file:
+**Option A: The Web Version (Quickest)** If you just want to take a quick look at a small file:
+1.  Open a Chrome based browser.
+2.  Go to: **[https://lichtblick-suite.github.io/lichtblick/](https://lichtblick-suite.github.io/lichtblick/)**
+
+**Option B: The Desktop Version (Recommended)** Because ROV MCAP files are very large, the desktop app performs significantly better.
     
-    1.  Open a Chrome based browser.
-        
-    2.  Go to: **[https://lichtblick-suite.github.io/lichtblick/](https://lichtblick-suite.github.io/lichtblick/)**
-        
--   **Option B: The Desktop Version (Recommended)** Because ROV MCAP files are very large, the desktop app performs significantly better.
+1.  Go to the download page: **[Lichtblick Releases](https://github.com/lichtblick-suite/lichtblick/releases)**
     
-    1.  Go to the download page: **[Lichtblick Releases](https://github.com/lichtblick-suite/lichtblick/releases)**
-        
-    2.  Scroll down to the **Assets** section of the latest release.
-        
-    3.  Download the file for your computer (Mac: `.dmg` | Windows: `.exe` | Linux: `.AppImage`).
-        
-    4.  Install and open it just like any regular app.
+2.  Scroll down to the **Assets** section of the latest release.
+    
+3.  Download the file for your computer (Mac: `.dmg` | Windows: `.exe` | Linux: `.AppImage`).
+    
+4.  Install and open it just like any regular app.
         
 
 ### Step 2: Open your Dive Data
 
 1.  Open Lichtblick.
     
-2.  On the welcome screen, click **Open data source**.
+2.  On the welcome screen, click **Open data source**. (Or: **L-Symbol**->File->Open local file(s))
     
 3.  Select **Open local file(s)...** from the menu.
     
@@ -250,7 +248,7 @@ You have two choices for using Lichtblick: you can run it right in your web brow
 
 ### Step 3: Load the ROV Layout
 
-When you first open a file, your screen might look blank. A **Layout** is a saved template (`.json` file) that instantly organizes the screen into neat panels, for example, putting the `OE14_13692` video feed on the left, the telemetry chart on the right, and the map somewhere else.
+When you first open a file, your screen might look blank. A **Layout** is a saved template (`.json` [file](https://github.com/Neumi/ROV_MCAP_pipeline/blob/main/mcap_mapping_config.json)) that instantly organizes the screen into neat panels, for example, putting the `OE14_13692` video feed on the left, the telemetry charts on the right, and the map somewhere else.
 
 1.  Look at the icons on the far-upper-left edge of the screen (the Topbar).
     
