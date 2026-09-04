@@ -152,7 +152,7 @@ Open your browser and navigate to: **[http://127.0.0.1:5000](http://127.0.0.1:50
 ![The Detected Mission Assets card after a successful scan, showing auto-populated camera streams and extracted file counts.](documentation/scan_directories.png)
 
 
-3.1  **Set Hardware & Encoding Controls**
+**3.1 Set Hardware & Encoding Controls**
 
 Choose your parameters carefully based on your hardware and storage setup (see _Performance Tuning_ below).
 
@@ -200,7 +200,16 @@ To achieve the fastest possible MCAP build times (e.g., reducing a 20-minute job
 
 ![Detected Mission Assets and Navigation Roles & Data Mapping](documentation/detect_mission_data_mapping.png)
 
-    
+
+**4. Press Build MCAP File**
+... and wait. It’ll take some time to finish, but you can monitor the progress in the status log at the bottom left while watching the live encoding process for each CPU core on the right.
+![Press Build MCAP File for starting the encoding process](documentation/upper_overview.png)
+ 
+
+
+ --------
+ Now you should have an MCAP file of the ROV dive.
+ 
 
 ## Part 2: Viewing the Dive in Lichtblick
 Lichtblick is a visualization tool that lets you play back the MCAP files you just generated. Think of it like a highly advanced video player, but instead of just watching a movie, you can see dive maps, synchronized camera feeds, depth charts, and OFOP logs and telemetry data exactly as they were recorded during the ROV deployment.
