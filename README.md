@@ -264,12 +264,10 @@ Now you can control the playback of the dive:
 
 -   **The Timeline:** At the bottom of the screen, you will see a long timeline bar showing the total length of the ROV dive.
     
--   **Scrubbing & Playback:** Click the **Play** button (▶) to watch the data live, or click and drag the timeline slider to jump instantly to specific OFOP events or seafloor observations.
+-   **Scrubbing & Playback:** Click the **Play** button (▶) to watch the data live, or click and drag the timeline slider to jump instantly to specific sensor events or seafloor observations.
     
 -   **Speed:** Change the playback speed (e.g., `0.5x` for slow motion, `5x` for fast forward) using the controls next to the play button.
     
--   **3D Navigation:** In the 3D panel, click and drag to rotate your view around the ROV, and use your mouse wheel to zoom in and out.
-
 
 _If that ain't cool, I don't know what is._
 ![Lichtblick ROV PHOCA overview](documentation/lichtblick_overview.png)
