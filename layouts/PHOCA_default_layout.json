@@ -1,0 +1,366 @@
+{
+  "configById": {
+    "Image!jwuelu": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/rov/video_preview/cam_gmr_oe14_13692"
+      }
+    },
+    "Plot!3tl8vdw": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/rov/telemetry.temperaturlanze_temp",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "lichtblickPanelTitle": "probe temperature"
+    },
+    "Gauge!26zhx": {
+      "colorMap": "red-yellow-green",
+      "colorMode": "gradient",
+      "gradient": [
+        "#a9a9ffff",
+        "#ff0000ff"
+      ],
+      "maxValue": 260,
+      "minValue": 0,
+      "path": "/rov/telemetry.temperaturlanze_temp",
+      "reverse": false
+    },
+    "Image!3hrbmi0": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/rov/camera_digistills"
+      }
+    },
+    "map!2669rwe": {
+      "center": {
+        "lat": 66.6033044990578,
+        "lon": -17.649718523025516
+      },
+      "customTileUrl": "",
+      "disabledTopics": [],
+      "followTopic": "/rov/gps",
+      "layer": "satellite",
+      "topicColors": {
+        "/ship/gps": "#e3ba4f",
+        "/rov/gps": "#4e98e2"
+      },
+      "zoomLevel": 16,
+      "maxNativeZoom": 18
+    },
+    "Image!2e4h7br": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/rov/video_preview/cam_gmr_oe14_13691"
+      }
+    },
+    "Image!3kxfqvu": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/rov/video_preview/cam_gmr_bullshark_13689"
+      }
+    },
+    "Plot!16e7wbo": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/rov/telemetry.",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "lichtblickPanelTitle": "DVL altitude"
+    },
+    "RosOut!1193o3j": {
+      "searchTerms": [],
+      "minLogLevel": 1,
+      "lichtblickPanelTitle": "general log",
+      "nameFilter": {
+        "DigiStills Camera": {
+          "visible": true
+        }
+      },
+      "topicToRender": "/rov/ofop_timeline"
+    },
+    "Plot!3jaoe7q": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/rov/telemetry.depth",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "lichtblickPanelTitle": "ROV depth"
+    },
+    "Plot!2n2wmnk": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/rov/telemetry.salinity",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "lichtblickPanelTitle": "CTD salinity"
+    },
+    "Plot!uzjtyi": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/rov/telemetry.temperature",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "lichtblickPanelTitle": "CTD temperature"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 5
+  },
+  "layout": {
+    "direction": "row",
+    "first": {
+      "first": {
+        "first": "Image!jwuelu",
+        "second": {
+          "first": {
+            "first": {
+              "first": "Plot!3tl8vdw",
+              "second": "Gauge!26zhx",
+              "direction": "row"
+            },
+            "second": "Image!3hrbmi0",
+            "direction": "column",
+            "splitPercentage": 34.59214501510574
+          },
+          "second": "map!2669rwe",
+          "direction": "row",
+          "splitPercentage": 47.15174724748682
+        },
+        "direction": "row",
+        "splitPercentage": 49.88032551460029
+      },
+      "second": {
+        "first": "Image!2e4h7br",
+        "second": "Image!3kxfqvu",
+        "direction": "row",
+        "splitPercentage": 49.97606510292006
+      },
+      "direction": "column",
+      "splitPercentage": 48.378955542613085
+    },
+    "second": {
+      "first": {
+        "first": "Plot!16e7wbo",
+        "second": "RosOut!1193o3j",
+        "direction": "row",
+        "splitPercentage": 74.9440715883669
+      },
+      "second": {
+        "first": "Plot!3jaoe7q",
+        "second": {
+          "first": "Plot!2n2wmnk",
+          "second": "Plot!uzjtyi",
+          "direction": "row"
+        },
+        "direction": "column"
+      },
+      "direction": "column"
+    },
+    "splitPercentage": 81.6015625
+  }
+}

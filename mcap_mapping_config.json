@@ -1,0 +1,45 @@
+{
+    "coord_mode": "auto",
+    "roles": {
+        "rov_lat": "Merian.MERIAN.SysPosLat",
+        "rov_lat_dir": "OFOP.OFOP_GLL.LatNS",
+        "rov_lon": "Merian.MERIAN.SysPosLon",
+        "rov_lon_dir": "DSHIP2104.USBL2104.LonEW",
+        "rov_depth": "ROV.ROV.Depth",
+        "rov_heading": "ROV.ROV.Heading",
+        "rov_pitch": "ROV.ROV.Pitch",
+        "rov_roll": "ROV.ROV.Roll",
+        "ship_lat": "Merian.MERIAN.SysPosLat",
+        "ship_lat_dir": "Merian.MERIAN.SysPosLatN",
+        "ship_lon": "Merian.MERIAN.SysPosLon",
+        "ship_lon_dir": "Merian.MERIAN.SysPosLonW",
+        "ship_heading": "Merian.MERIAN.SysHeading"
+    },
+    "telemetry": {
+        "ROV.ROV.Heading": "heading",
+        "ROV.ROV.Depth": "depth",
+        "ROV.ROV.Altitude": "altitude",
+        "ROV.ROV.Pitch": "pitch",
+        "ROV.ROV.Roll": "roll",
+        "ROV.ROV.UpperPan": "camera_upper_pan",
+        "ROV.ROV.UpperTilt": "camera_upper_tilt",
+        "ROV.ROV.LowerPan": "camera_lower_pan",
+        "ROV.ROV.LowerTilt": "camera_lower_tilt",
+        "ROV.ROV.XVelBottom": "dvl_vel_x",
+        "ROV.ROV.YVelBottom": "dvl_vel_y",
+        "ROV.ROV.ZVelBottom": "dvl_vel_z",
+        "Winde.WINCH2500.Cablelength": "winch_cable_length",
+        "Winde.WINCH2500.Velo": "winch_velocity",
+        "Winde.WINCH2500.Tension": "winch_tension",
+        "SBE49CTD.CTD.Temperature": "temperature",
+        "SBE49CTD.CTD.Salinity": "salinity",
+        "SBE49CTD.CTD.Density": "density",
+        "RBR.RBR.Temperature": "rbr_rbr_temperature"
+    },
+    "ofop": [
+        "SUB1_Lon",
+        "SUB1_Lat",
+        "ID_Number",
+        "ID_Name"
+    ]
+}
