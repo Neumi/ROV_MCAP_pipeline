@@ -1,6 +1,6 @@
 # ROV MCAP Pipeline & [Lichtblick](https://lichtblick-suite.github.io/lichtblick/) Viewer Guide
 
-**Developed at GEOMAR Helmholtz Centre for Ocean Research Kiel by Jan Neumann**
+**Developed at [GEOMAR Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/) by [Jan Neumann](https://www.linkedin.com/in/neumi)**
 
 _If in doubt, ask!_
 
@@ -92,7 +92,7 @@ _(Note: OpenCV is included as a fallback decoder in case FFmpeg is missing from 
 
 ### 📁 Expected Folder Structure
 
-The pipeline uses regular expressions to auto-detect dive IDs (e.g., `064-1ROV06`). It actively scans through lower-layered folders, so it is not critical to select the exact dive folder. You can select the overarching mission folder and filter your target dive in the MCAP pipeline UI later. Video files that are chucked, will be merged by the software. Timestamps need to line up. Data storage formats are usually defined by logging software, OFOP etc. and are provided by the ROV team.
+The pipeline uses regular expressions to auto-detect dive IDs (e.g., `064-1ROV06`). It actively scans through lower-layered folders, so it is not critical to select the exact dive folder. You can select the overarching mission folder and filter your target dive in the MCAP pipeline UI later. Video files that are chucked, will be merged by the software. Timestamps need to line up. Data storage formats are usually defined by logging software, OFOP etc. and are provided by the [ROV team](https://www.geomar.de/st/rovphoca/rov-team).
 
 It expects your data to follow this rough hierarchy (though it is very tolerant):
 
